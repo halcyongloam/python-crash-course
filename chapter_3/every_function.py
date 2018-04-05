@@ -1,0 +1,26 @@
+# store a list of something, then use every function from the chapter on it
+colors = ['red', 'orange', 'yellow', 'green', 'blue', 'purple', 'pink']
+print(colors)
+del colors[-1]
+colors[-1] = 'violet'
+print(colors)
+colors.insert(-1, 'indigo')
+print(colors)
+colors.remove('violet')
+print(colors)
+indigo = colors.pop()
+print(colors)
+print(indigo + " isn't a primary or secondary color\n")
+colors.append('purple')
+print(colors)
+print(sorted(colors))
+print(colors)
+print(sorted(colors, reverse = True))
+print(colors)
+colors.reverse()
+print(colors)
+colors.sort()
+print(colors)
+colors.sort(reverse = True)
+print(colors)
+print(len(colors))
