@@ -12,5 +12,3 @@ menu = ('cheesebread', 'mac and cheese', 'pizza', 'chili tots', 'sliders')
 print('\nNew Menu:')
 for food in menu:
     print('\t' + food)
-
-print('hello world')
