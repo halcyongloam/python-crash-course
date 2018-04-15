@@ -1,9 +1,16 @@
 {
     "python.pythonPath": "/usr/bin/python3",
     "python.autoComplete.addBrackets": true,
-    "python.linting.lintOnSave": true,
+    
     "editor.rulers": [
         72, 
         79,
     ],
+
+    // python linting behavior
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": true,
+    "python.linting.flake8Enabled": true,
+    "python.linting.lintOnSave": true,
+    "python.linting.pep8Enabled": true,
 }
